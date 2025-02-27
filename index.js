@@ -31,7 +31,7 @@ app.get("./delete", (req, res) => {
 
 db.sequelize.sync().then((req)=> {
     app.listen(3000,() => {
-        console.log("Server is running");
+        console.log("Server running");
 });
 
 });
